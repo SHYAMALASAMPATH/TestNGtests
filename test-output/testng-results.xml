@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="11" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87" started-at="2020-08-03T21:29:15 IST" finished-at="2020-08-03T21:29:15 IST">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day2.mobileperloan()[pri:0, instance:com.testngbasics.Day2@5bc79255]" name="mobileperloan" class="com.testngbasics.Day2"/>
+        <method signature="Day3.mobilecarloan()[pri:0, instance:com.testngbasics.Day3@6e0e048a]" name="mobilecarloan" class="com.testngbasics.Day3"/>
+        <method signature="Day4.mobilehomeloan()[pri:0, instance:com.testngbasics.Day4@5b87ed94]" name="mobilehomeloan" class="com.testngbasics.Day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Loans" duration-ms="87" started-at="2020-08-03T21:29:15 IST" finished-at="2020-08-03T21:29:15 IST">
+      <class name="com.testngbasics.Day4">
+        <test-method status="PASS" signature="mobilehomeloan()[pri:0, instance:com.testngbasics.Day4@5b87ed94]" name="mobilehomeloan" duration-ms="16" started-at="2020-08-03T21:29:15 IST" finished-at="2020-08-03T21:29:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilehomeloan -->
+      </class> <!-- com.testngbasics.Day4 -->
+      <class name="com.testngbasics.Day3">
+        <test-method status="PASS" signature="mobilecarloan()[pri:0, instance:com.testngbasics.Day3@6e0e048a]" name="mobilecarloan" duration-ms="0" started-at="2020-08-03T21:29:15 IST" finished-at="2020-08-03T21:29:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilecarloan -->
+      </class> <!-- com.testngbasics.Day3 -->
+      <class name="com.testngbasics.Day2">
+        <test-method status="PASS" signature="mobileperloan()[pri:0, instance:com.testngbasics.Day2@5bc79255]" name="mobileperloan" duration-ms="0" started-at="2020-08-03T21:29:15 IST" finished-at="2020-08-03T21:29:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileperloan -->
+        <test-method status="PASS" signature="apiperloan()[pri:0, instance:com.testngbasics.Day2@5bc79255]" name="apiperloan" duration-ms="0" started-at="2020-08-03T21:29:15 IST" finished-at="2020-08-03T21:29:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiperloan -->
+        <test-method status="PASS" signature="webperloan()[pri:0, instance:com.testngbasics.Day2@5bc79255]" name="webperloan" duration-ms="0" started-at="2020-08-03T21:29:15 IST" finished-at="2020-08-03T21:29:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webperloan -->
+      </class> <!-- com.testngbasics.Day2 -->
+    </test> <!-- Loans -->
+  </suite> <!-- Suite -->
+</testng-results>
